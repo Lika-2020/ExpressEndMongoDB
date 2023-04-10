@@ -6,6 +6,9 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 const userRouter = require("./routes/users"); // Add import statement for userRouter
 const bookRouter = require("./routes/books"); // Add import statement for bookRouter
+const User = require('./models/user'); 
+const Book = require('./models/book'); 
+
 
 dotenv.config();
 
